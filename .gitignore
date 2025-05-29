@@ -1,0 +1,38 @@
+# Python files and shared libraries
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# Pytest or other test cache
+.cache/
+*.cover
+*.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
