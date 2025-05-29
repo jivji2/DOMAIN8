@@ -20,8 +20,8 @@
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/j4ke-exe/domain8.git
-cd domain8
+git clone https://github.com/j4ke-exe/DOMAIN8.git
+cd DOMAIN8
 pip install -r requirements.txt
 ```
 
@@ -30,8 +30,8 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python domain8.py --w <wordlist.txt> --d <domain> [--x .php,.html] [--t 10]
-python domain8.py --w <wordlist.txt> --s <domain> [--ip <ip>] [--t 10]
+python DOMAIN8.py --w <wordlist.txt> --d <domain> [--x .php,.html] [--t 10]
+python DOMAIN8.py --w <wordlist.txt> --s <domain> [--ip <ip>] [--t 10]
 ```
 
 ---
@@ -40,19 +40,19 @@ python domain8.py --w <wordlist.txt> --s <domain> [--ip <ip>] [--t 10]
 
 ```bash
 # Basic directory scan
-python domain8.py --w paths.txt --d https://example.com
+python DOMAIN8.py --w paths.txt --d https://example.com
 
 # Directory scan with file extensions and status code filtering
-python domain8.py --w paths.txt --d http://example.com --x .php,.html --sc 200,403
+python DOMAIN8.py --w paths.txt --d http://example.com --x .php,.html --sc 200,403
 
 # Subdomain enumeration
-python domain8.py --w subdomains.txt --s example.com
+python DOMAIN8.py --w subdomains.txt --s example.com
 
 # Subdomain scan via IP with host header spoofing
-python domain8.py --w subdomains.txt --s example.com --ip 10.10.10.10
+python DOMAIN8.py --w subdomains.txt --s example.com --ip 10.10.10.10
 
 # Throttle concurrency to XX requests at a time
-python domain8.py --w paths.txt --d https://example.com --t 10
+python DOMAIN8.py --w paths.txt --d https://example.com --t 10
 ```
 
 ---
@@ -80,7 +80,7 @@ python domain8.py --w paths.txt --d https://example.com --t 10
 By using this tool, you agree to:
 
 - Operate only within the bounds of **legal and ethical hacking practices**.
-- Use `domain8` **only** on systems you own or are authorized to test.
+- Use `DOMAIN8` **only** on systems you own or are authorized to test.
 - Assume **full responsibility** for any consequences resulting from its use.
 
 **The author assumes no liability for any misuse or resulting damage.**
