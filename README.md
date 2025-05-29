@@ -59,7 +59,6 @@ python domain8.py --w paths.txt --d https://example.com --t 10
 
 ## Options
 
-|------------|----------------------------------------------------------|
 | Flag       | Description                                              |
 |------------|----------------------------------------------------------|
 | `--w`      | Wordlist file (**required**)                         	|
@@ -70,7 +69,6 @@ python domain8.py --w paths.txt --d https://example.com --t 10
 | `--x`      | File extensions (e.g., `.php,.html`) 					|
 | `--t`      | Max concurrent requests (default: 20)                    |
 | `--h`      | Show help message                                        |
-|------------|----------------------------------------------------------|
 
 ---
 
@@ -86,12 +84,6 @@ By using this tool, you agree to:
 - Assume **full responsibility** for any consequences resulting from its use.
 
 **The author assumes no liability for any misuse or resulting damage.**
-
----
-
-## Author
-
-Created by [@j4ke-exe](https://github.com/j4ke-exe)
 
 ---
 
