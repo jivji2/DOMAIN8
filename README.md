@@ -75,7 +75,7 @@ python domain8.py --w paths.txt --d https://example.com --t 10
 ## Legal Disclaimer
 
 > This tool is intended for educational purposes and authorized penetration testing.  
-> Unauthorized use of this software against systems without explicit permission is **strictly prohibited** and **illegal**.
+> Unauthorized use of this tool against systems without explicit permission is **strictly prohibited** and **illegal**.
 
 By using this tool, you agree to:
 
