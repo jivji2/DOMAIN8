@@ -1,7 +1,7 @@
 ![version](https://img.shields.io/badge/version-1.0-green.svg)
 ![python](https://img.shields.io/badge/python-3.8+-blue.svg)
 
-`domain8` is a fast domain enumeration tool written in Python using `aiohttp` and `asyncio`.
+`DOMAIN8` is a fast domain enumeration tool written in Python using `aiohttp` and `asyncio`.
 
 ---
 
